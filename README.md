@@ -75,18 +75,20 @@ Six familles d'approches NLP ont été explorées et comparées :
 
 ### Top 10 des modèles
 
-| Rang | Modèle | Catégorie | F1 | Recall | Precision |
-|---|---|---|---|---|---|
-| 1 | RoBERTa | Deep Learning | **0.771** | 0.814 | 0.732 |
-| 2 | BERTweet | Deep Learning | 0.747 | 0.788 | 0.709 |
-| 3 | DistilBERT | Deep Learning | 0.745 | 0.766 | 0.724 |
-| 4 | Voting Classifier | Ensemblistes | 0.717 | 0.687 | 0.750 |
-| 5 | Count + ComplementNB | TF-IDF Classique | 0.712 | 0.704 | 0.721 |
-| 6 | CountBin + BernoulliNB | TF-IDF Classique | 0.711 | 0.667 | 0.761 |
-| 7 | TF-IDF + LogReg | TF-IDF Classique | 0.710 | 0.771 | 0.657 |
-| 8 | Stacking Classifier | Ensemblistes | 0.709 | 0.646 | 0.786 |
-| 9 | TF-IDF + Num + LogReg | TF-IDF Classique | 0.708 | 0.778 | 0.649 |
-| 10 | TF-IDF + LogReg Balanced | TF-IDF Avancé | 0.705 | 0.781 | 0.643 |
+| Rang | Modèle | Catégorie | F1 | F2 | Recall | Precision |
+|---|---|---|---|---|---|---|
+| 1 | RoBERTa | Deep Learning | **0.771** | **0.796** | 0.814 | 0.732 |
+| 2 | BERTweet | Deep Learning | 0.747 | 0.771 | 0.788 | 0.709 |
+| 3 | DistilBERT | Deep Learning | 0.745 | 0.757 | 0.766 | 0.724 |
+| 4 | Voting Classifier | Ensemblistes | 0.717 | 0.700 | 0.687 | 0.750 |
+| 5 | Count + ComplementNB | TF-IDF Classique | 0.712 | 0.711 | 0.704 | 0.721 |
+| 6 | CountBin + BernoulliNB | TF-IDF Classique | 0.711 | 0.685 | 0.667 | 0.761 |
+| 7 | TF-IDF + LogReg | TF-IDF Classique | 0.710 | 0.745 | 0.771 | 0.657 |
+| 8 | Stacking Classifier | Ensemblistes | 0.709 | 0.671 | 0.646 | 0.786 |
+| 9 | TF-IDF + Num + LogReg | TF-IDF Classique | 0.708 | 0.748 | 0.778 | 0.649 |
+| 10 | TF-IDF + LogReg Balanced | TF-IDF Avancé | 0.705 | 0.749 | 0.781 | 0.643 |
+
+> Note : Le F1 est conservé comme métrique principale. Le F2-score, qui pondère le recall 2× plus que la precision, est calculé en complément car conceptuellement plus adapté à un système d'alerte de catastrophe où le coût d'un faux négatif est élevé.
 
 ### Apprentissages principaux
 
