@@ -14,7 +14,7 @@ organisés par notebook et catégorie d'approche.
 
 @st.cache_data
 def load_data():
-    return pd.read_csv('data/all_models_comparison.csv')
+    return pd.read_csv('dashboard/data/all_models_comparison.csv')
 
 all_results = load_data()
 
