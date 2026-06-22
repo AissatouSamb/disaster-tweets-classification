@@ -1,6 +1,0 @@
-pipeline,best_params,best_cv_f1_class_1,train_accuracy,train_f1_class_1,train_recall_class_1,train_precision_class_1,test_accuracy,test_f1_class_1,test_recall_class_1,test_precision_class_1,test_f1_macro,test_balanced_accuracy
-P24_Voting,N/A (pas de tuning),,0.994,0.983,0.997,0.969,0.9,0.717,0.687,0.75,0.828,0.817
-P25_Stacking,N/A (pas de tuning),,0.995,0.988,0.999,0.977,0.902,0.709,0.646,0.786,0.825,0.803
-P22_XGB,"{""clf__learning_rate"": 0.2, ""clf__max_depth"": 3, ""clf__n_estimators"": 300}",0.636,0.984,0.959,0.996,0.925,0.875,0.658,0.648,0.667,0.791,0.787
-P23_LGBM,"{""clf__learning_rate"": 0.05, ""clf__n_estimators"": 300, ""clf__num_leaves"": 31}",0.637,0.997,0.993,0.999,0.986,0.884,0.657,0.6,0.726,0.794,0.774
-P21_RF,"{""clf__max_depth"": 10, ""clf__min_samples_leaf"": 5, ""clf__n_estimators"": 200}",0.578,0.963,0.902,0.917,0.887,0.878,0.618,0.535,0.73,0.772,0.745

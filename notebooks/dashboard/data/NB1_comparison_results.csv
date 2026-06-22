@@ -1,6 +1,0 @@
-pipeline,baseline_f1_class_1,tuned_f1_class_1,delta_f1_class_1,baseline_recall,tuned_recall,delta_recall,best_params
-P03_TFIDF_UniBi_LogReg,0.531,0.71,0.179,0.381,0.771,0.39,"{""clf__C"": 4.0, ""clf__class_weight"": ""balanced""}"
-P02_TFIDF_Unigram_LogReg,0.548,0.667,0.119,0.41,0.766,0.356,"{""clf__C"": 4.0, ""clf__class_weight"": ""balanced""}"
-P01_Count_MultinomialNB,0.672,0.682,0.01,0.708,0.696,-0.012,"{""clf__alpha"": 0.1}"
-P04_TFIDF_UniBi_LinearSVC,0.699,0.701,0.002,0.639,0.73,0.091,"{""clf__C"": 1.0, ""clf__class_weight"": ""balanced""}"
-P05_TFIDF_UniBi_SGDLog,0.688,0.688,0.0,0.619,0.619,0.0,"{""clf__alpha"": 1e-05, ""clf__class_weight"": null, ""clf__penalty"": ""l2""}"

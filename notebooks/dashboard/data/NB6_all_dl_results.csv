@@ -1,6 +1,0 @@
-pipeline,model,test_f1_class_1,test_recall_class_1,test_precision_class_1,test_accuracy,test_balanced_accuracy,vs_reference
-RoBERTa,roberta-base,0.771,0.814,0.732,0.91,0.873,0.054
-BERTweet,vinai/bertweet-base,0.747,0.788,0.709,0.901,0.857,0.03
-DistilBERT,distilbert-base-uncased,0.745,0.766,0.724,0.903,0.85,0.028
-BiLSTM,BiLSTM (custom),0.616,0.716,0.541,0.835,0.789,-0.101
-TextCNN,TextCNN (custom),0.615,0.549,0.699,0.873,0.748,-0.102

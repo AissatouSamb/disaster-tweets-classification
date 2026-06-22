@@ -1,2 +1,0 @@
-pipeline,test_f1_class_1,test_recall_class_1,test_precision_class_1,test_accuracy,test_balanced_accuracy,vs_reference
-BERTweet_finetuned,0.7465753424657534,0.7879518072289157,0.7093275488069414,0.9011135857461025,0.8573638817565343,0.02957534246575344

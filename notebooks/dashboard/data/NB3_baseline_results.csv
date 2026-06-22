@@ -1,6 +1,0 @@
-pipeline,train_accuracy,train_f1_class_1,train_recall_class_1,train_precision_class_1,test_accuracy,test_f1_class_1,test_recall_class_1,test_precision_class_1,test_f1_macro,test_balanced_accuracy
-P12_Count_ComplementNB,0.931,0.824,0.872,0.781,0.889,0.707,0.723,0.691,0.819,0.825
-P13_TFIDF_Word_SGD_Hinge,0.998,0.995,0.992,0.998,0.886,0.686,0.675,0.698,0.808,0.804
-P14_TFIDF_Word_SGD_ModHuber,0.998,0.995,0.996,0.995,0.883,0.681,0.675,0.688,0.805,0.803
-P11_CountBin_BernoulliNB,0.934,0.797,0.695,0.932,0.892,0.619,0.475,0.891,0.778,0.731
-P15_TFIDF_Num_LogReg,0.91,0.696,0.56,0.921,0.872,0.574,0.465,0.748,0.749,0.715

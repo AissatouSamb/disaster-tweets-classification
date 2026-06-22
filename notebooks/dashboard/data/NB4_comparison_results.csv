@@ -1,6 +1,0 @@
-pipeline,baseline_f1_class_1,tuned_f1_class_1,delta_f1_class_1,baseline_recall,tuned_recall,delta_recall,vs_reference,best_params
-P19_GloVeTwitter_LinearSVC,0.575,0.625,0.05,0.472,0.814,0.342,-0.087,"{""clf__C"": 1.0, ""clf__class_weight"": ""balanced""}"
-P20_GloVeTwitter_LogReg_Balanced,0.621,0.62,-0.001,0.814,0.81,-0.004,-0.092,"{""clf__C"": 0.1, ""clf__class_weight"": ""balanced""}"
-P18_GloVeTwitter_LogReg,0.604,0.62,0.016,0.525,0.81,0.285,-0.092,"{""clf__C"": 0.1, ""clf__class_weight"": ""balanced""}"
-P16_W2V_LogReg,0.593,0.614,0.021,0.492,0.793,0.301,-0.098,"{""clf__C"": 0.5, ""clf__class_weight"": ""balanced""}"
-P17_W2V_LinearSVC,0.606,0.611,0.005,0.501,0.781,0.28,-0.101,"{""clf__C"": 0.5, ""clf__class_weight"": ""balanced""}"

@@ -1,6 +1,0 @@
-pipeline,baseline_f1_class_1,tuned_f1_class_1,delta_f1_class_1,baseline_recall,tuned_recall,delta_recall,vs_reference,best_params
-P24_Voting,0.715,0.717,0.002,0.687,0.687,0.0,0.005,N/A (pas de tuning)
-P25_Stacking,0.709,0.709,0.0,0.646,0.646,0.0,-0.003,N/A (pas de tuning)
-P22_XGB,0.631,0.658,0.027,0.525,0.648,0.123,-0.054,"{""clf__learning_rate"": 0.2, ""clf__max_depth"": 3, ""clf__n_estimators"": 300}"
-P23_LGBM,0.647,0.657,0.01,0.564,0.6,0.036,-0.055,"{""clf__learning_rate"": 0.05, ""clf__n_estimators"": 300, ""clf__num_leaves"": 31}"
-P21_RF,0.464,0.618,0.154,0.308,0.535,0.227,-0.094,"{""clf__max_depth"": 10, ""clf__min_samples_leaf"": 5, ""clf__n_estimators"": 200}"
