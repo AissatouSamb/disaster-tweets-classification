@@ -165,7 +165,7 @@ streamlit run app.py
 
 ### Exécuter les notebooks
 
-Les notebooks sont conçus pour être exécutés sur Kaggle (NB1-NB5) ou Google Colab (NB6-NB7) afin de bénéficier des ressources GPU gratuites nécessaires au fine-tuning des Transformers.
+Les notebooks sont conçus pour être exécutés sur Kaggle (NB1-NB5) et Google Colab (NB6-NB7) afin de bénéficier des ressources GPU gratuites nécessaires au fine-tuning des Transformers.
 
 ## Déploiement
 
@@ -173,7 +173,8 @@ Les notebooks sont conçus pour être exécutés sur Kaggle (NB1-NB5) ou Google 
 
 Analyse comparative des 30 modèles, visualisations interactives et exploration des résultats.
 
-**Lien : **
+**Lien : **  https://disaster-tweets-classification.streamlit.app/ 
+
 
 ### Interface de prédiction (Hugging Face Spaces)
 
@@ -193,13 +194,12 @@ Interface Gradio permettant de tester le modèle RoBERTa fine-tuné sur de nouve
 | Hébergement | Streamlit Cloud, Hugging Face Spaces |
 | Environnements d'exécution | Kaggle, Google Colab |
 
-## Auteur
+## Auteurs
 **Boye DIBA**
 **Aïssatou SAMB**
 
-Projet réalisé dans le cadre du cours de Machine Learning 2 — ISEP2 2026
+Projet réalisé dans le cadre du cours de Machine Learning  — ISEP2 2026
 
 ## Licence
 
 Ce projet est distribué sous licence MIT.
-Sauvegarde et continue avec les commandes Git !
