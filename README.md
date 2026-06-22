@@ -163,8 +163,6 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-Le dashboard est accessible sur `http://localhost:8501`.
-
 ### Exécuter les notebooks
 
 Les notebooks sont conçus pour être exécutés sur Kaggle (NB1-NB5) ou Google Colab (NB6-NB7) afin de bénéficier des ressources GPU gratuites nécessaires au fine-tuning des Transformers.
