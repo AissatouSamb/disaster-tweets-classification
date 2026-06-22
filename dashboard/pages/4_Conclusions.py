@@ -247,7 +247,7 @@ les baselines classiques restent des références solides à dépasser.
 st.markdown("---")
 st.markdown(
     "<p style='text-align: center; color: #999;'>"
-    "Projet réalisé dans le cadre du cours de Machine Learning 2 — ISE2 2026"
+    "Projet réalisé dans le cadre du cours de Machine Learning  — ISEP2 2026"
     "</p>",
     unsafe_allow_html=True
 )
