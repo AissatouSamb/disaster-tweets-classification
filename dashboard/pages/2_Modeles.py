@@ -92,16 +92,16 @@ st.markdown("## 📋 Tableau détaillé")
 
 if len(filtered) > 0:
     display_df = filtered[['rang', 'pipeline', 'notebook', 'categorie',
-                           'test_f1_class_1', 'test_recall_class_1',
-                           'test_precision_class_1', 'test_accuracy',
-                           'test_balanced_accuracy']].copy()
+                           'test_f1_class_1', 'test_f2_class_1',
+                           'test_recall_class_1', 'test_precision_class_1',
+                           'test_accuracy', 'test_balanced_accuracy']].copy()
     
     display_df.columns = ['Rang', 'Modèle', 'Notebook', 'Catégorie',
-                          'F1', 'Recall', 'Precision', 'Accuracy', 'Balanced Acc.']
+                          'F1', 'F2', 'Recall', 'Precision', 'Accuracy', 'Balanced Acc.']
     
     st.dataframe(
         display_df.style.background_gradient(
-            subset=['F1', 'Recall', 'Precision', 'Accuracy', 'Balanced Acc.'],
+            subset=['F1', 'F2', 'Recall', 'Precision', 'Accuracy', 'Balanced Acc.'],
             cmap='RdYlGn',
             vmin=0.5, vmax=0.85
         ),
@@ -119,11 +119,12 @@ st.markdown("## 📈 Performance moyenne par catégorie")
 
 cat_stats = all_results.groupby('categorie').agg({
     'test_f1_class_1': ['mean', 'max', 'min'],
+    'test_f2_class_1': 'mean',
     'test_recall_class_1': 'mean',
     'test_precision_class_1': 'mean'
 }).round(3)
 
-cat_stats.columns = ['F1 moyen', 'F1 max', 'F1 min', 'Recall moyen', 'Precision moyenne']
+cat_stats.columns = ['F1 moyen', 'F1 max', 'F1 min', 'F2 moyen', 'Recall moyen', 'Precision moyenne']
 cat_stats = cat_stats.sort_values('F1 moyen', ascending=False)
 st.dataframe(cat_stats, use_container_width=True)
 
