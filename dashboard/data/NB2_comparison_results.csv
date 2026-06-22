@@ -1,0 +1,6 @@
+pipeline,baseline_f1_class_1,tuned_f1_class_1,delta_f1_class_1,baseline_recall,tuned_recall,delta_recall,vs_NB1_reference,best_params
+P08_TFIDF_Word_LogReg_Balanced,0.695,0.705,0.01,0.798,0.781,-0.017,-0.005,"{""clf__C"": 2.0}"
+P09_Hybrid_LogReg,0.621,0.685,0.064,0.494,0.745,0.251,-0.025,"{""clf__C"": 4.0, ""clf__class_weight"": ""balanced""}"
+P10_Hybrid_LinearSVC,0.684,0.684,0.0,0.639,0.749,0.11,-0.026,"{""clf__C"": 0.25, ""clf__class_weight"": ""balanced""}"
+P07_TFIDF_Char_LinearSVC,0.655,0.654,-0.001,0.61,0.747,0.137,-0.056,"{""clf__C"": 1.0, ""clf__class_weight"": ""balanced""}"
+P06_TFIDF_Char_ComplementNB,0.414,0.649,0.235,0.284,0.776,0.492,-0.061,"{""clf__alpha"": 0.1, ""clf__norm"": false}"

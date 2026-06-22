@@ -1,0 +1,6 @@
+pipeline,best_params,best_cv_f1_class_1,train_accuracy,train_f1_class_1,train_recall_class_1,train_precision_class_1,test_accuracy,test_f1_class_1,test_recall_class_1,test_precision_class_1,test_f1_macro,test_balanced_accuracy
+P03_TFIDF_UniBi_LogReg,"{""clf__C"": 4.0, ""clf__class_weight"": ""balanced""}",0.685,0.977,0.941,0.996,0.892,0.883,0.71,0.771,0.657,0.818,0.84
+P04_TFIDF_UniBi_LinearSVC,"{""clf__C"": 1.0, ""clf__class_weight"": ""balanced""}",0.688,0.993,0.982,0.999,0.964,0.885,0.701,0.73,0.673,0.815,0.825
+P05_TFIDF_UniBi_SGDLog,"{""clf__alpha"": 1e-05, ""clf__class_weight"": null, ""clf__penalty"": ""l2""}",0.683,0.995,0.985,0.975,0.996,0.896,0.688,0.619,0.774,0.813,0.789
+P01_Count_MultinomialNB,"{""clf__alpha"": 0.1}",0.677,0.939,0.838,0.853,0.822,0.88,0.682,0.696,0.669,0.804,0.809
+P02_TFIDF_Unigram_LogReg,"{""clf__C"": 4.0, ""clf__class_weight"": ""balanced""}",0.669,0.955,0.888,0.976,0.815,0.859,0.667,0.766,0.591,0.789,0.823

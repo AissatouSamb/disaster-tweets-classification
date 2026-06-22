@@ -1,0 +1,6 @@
+pipeline,train_accuracy,train_f1_class_1,train_recall_class_1,train_precision_class_1,test_accuracy,test_f1_class_1,test_recall_class_1,test_precision_class_1,test_f1_macro,test_balanced_accuracy
+P04_TFIDF_UniBi_LinearSVC,0.994,0.984,0.972,0.996,0.898,0.699,0.639,0.773,0.819,0.798
+P05_TFIDF_UniBi_SGDLog,0.995,0.985,0.975,0.996,0.896,0.688,0.619,0.774,0.813,0.789
+P01_Count_MultinomialNB,0.923,0.798,0.824,0.773,0.872,0.672,0.708,0.639,0.796,0.809
+P02_TFIDF_Unigram_LogReg,0.904,0.662,0.507,0.953,0.875,0.548,0.41,0.829,0.738,0.695
+P03_TFIDF_UniBi_LogReg,0.902,0.641,0.476,0.981,0.876,0.531,0.381,0.878,0.73,0.684

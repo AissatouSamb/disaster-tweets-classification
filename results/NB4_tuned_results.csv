@@ -1,0 +1,6 @@
+pipeline,best_params,best_cv_f1_class_1,train_accuracy,train_f1_class_1,train_recall_class_1,train_precision_class_1,test_accuracy,test_f1_class_1,test_recall_class_1,test_precision_class_1,test_f1_macro,test_balanced_accuracy
+P19_GloVeTwitter_LinearSVC,"{""clf__C"": 1.0, ""clf__class_weight"": ""balanced""}",0.605,0.826,0.635,0.818,0.519,0.819,0.625,0.814,0.507,0.753,0.817
+P20_GloVeTwitter_LogReg_Balanced,"{""clf__C"": 0.1, ""clf__class_weight"": ""balanced""}",0.605,0.823,0.631,0.818,0.513,0.817,0.62,0.81,0.503,0.75,0.814
+P18_GloVeTwitter_LogReg,"{""clf__C"": 0.1, ""clf__class_weight"": ""balanced""}",0.605,0.823,0.631,0.818,0.513,0.817,0.62,0.81,0.503,0.75,0.814
+P16_W2V_LogReg,"{""clf__C"": 0.5, ""clf__class_weight"": ""balanced""}",0.61,0.825,0.631,0.807,0.517,0.816,0.614,0.793,0.501,0.746,0.807
+P17_W2V_LinearSVC,"{""clf__C"": 0.5, ""clf__class_weight"": ""balanced""}",0.611,0.831,0.639,0.81,0.528,0.816,0.611,0.781,0.502,0.746,0.803

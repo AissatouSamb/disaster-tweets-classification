@@ -1,0 +1,6 @@
+pipeline,baseline_f1_class_1,tuned_f1_class_1,delta_f1_class_1,baseline_recall,tuned_recall,delta_recall,vs_reference,best_params
+P12_Count_ComplementNB,0.707,0.712,0.005,0.723,0.704,-0.019,0.002,"{""clf__alpha"": 0.5, ""clf__norm"": true}"
+P11_CountBin_BernoulliNB,0.619,0.711,0.092,0.475,0.667,0.192,0.001,"{""clf__alpha"": 0.1, ""clf__binarize"": 0.0}"
+P15_TFIDF_Num_LogReg,0.574,0.708,0.134,0.465,0.778,0.313,-0.002,"{""clf__C"": 4.0, ""clf__class_weight"": ""balanced""}"
+P14_TFIDF_Word_SGD_ModHuber,0.681,0.698,0.017,0.675,0.646,-0.029,-0.012,"{""clf__alpha"": 0.0001, ""clf__class_weight"": null, ""clf__penalty"": ""l2""}"
+P13_TFIDF_Word_SGD_Hinge,0.686,0.683,-0.003,0.675,0.754,0.079,-0.027,"{""clf__alpha"": 0.0001, ""clf__class_weight"": ""balanced"", ""clf__penalty"": ""l2""}"

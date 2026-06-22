@@ -1,0 +1,21 @@
+# Modèles fine-tunés (trop gros pour GitHub)
+**/models/
+*.safetensors
+*.pt
+*.bin
+
+# Environnements Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Fichiers Streamlit
+.streamlit/
+
+# Fichiers OS
+.DS_Store
+Thumbs.db
+
+# Notebooks checkpoints
+.ipynb_checkpoints/

@@ -1,0 +1,6 @@
+pipeline,best_params,best_cv_f1_class_1,train_accuracy,train_f1_class_1,train_recall_class_1,train_precision_class_1,test_accuracy,test_f1_class_1,test_recall_class_1,test_precision_class_1,test_f1_macro,test_balanced_accuracy
+P12_Count_ComplementNB,"{""clf__alpha"": 0.5, ""clf__norm"": true}",0.674,0.945,0.856,0.885,0.829,0.895,0.712,0.704,0.721,0.824,0.821
+P11_CountBin_BernoulliNB,"{""clf__alpha"": 0.1, ""clf__binarize"": 0.0}",0.689,0.967,0.911,0.911,0.911,0.9,0.711,0.667,0.761,0.825,0.81
+P15_TFIDF_Num_LogReg,"{""clf__C"": 4.0, ""clf__class_weight"": ""balanced""}",0.685,0.975,0.936,0.995,0.883,0.881,0.708,0.778,0.649,0.816,0.841
+P14_TFIDF_Word_SGD_ModHuber,"{""clf__alpha"": 0.0001, ""clf__class_weight"": null, ""clf__penalty"": ""l2""}",0.68,0.997,0.991,0.986,0.995,0.897,0.698,0.646,0.759,0.818,0.8
+P13_TFIDF_Word_SGD_Hinge,"{""clf__alpha"": 0.0001, ""clf__class_weight"": ""balanced"", ""clf__penalty"": ""l2""}",0.676,0.976,0.939,0.995,0.889,0.871,0.683,0.754,0.625,0.801,0.826
