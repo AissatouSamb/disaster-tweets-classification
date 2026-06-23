@@ -71,7 +71,8 @@ Six familles d'approches NLP ont été explorées et comparées :
 - Optimisation des hyperparamètres via GridSearchCV
 - Métrique principale : F1-score classe 1 (disaster)
 - Métriques secondaires : Recall, Precision, Accuracy, Balanced Accuracy
-- Métrique complémentaire : F2-score (pondère le recall 2×, plus adapté pour un système d'alerte)
+  
+NB: LE F2-score (pondère le recall 2×, adapté pour un système d'alerte) a été calculé uniquement au niveau du dashboard pour les modèles les plus performants.
 
 
 ## Résultats
