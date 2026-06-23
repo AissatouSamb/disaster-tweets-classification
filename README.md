@@ -1,6 +1,6 @@
 # Disaster Tweets Classification
 
-Système de classification automatique de tweets permettant de distinguer les vraies catastrophes des usages métaphoriques, basé sur l'évaluation comparative de 30 modèles NLP allant des approches classiques (TF-IDF) aux Transformers modernes (RoBERTa, BERTweet).
+Système de classification automatique de tweets permettant de distinguer les vraies catastrophes des tweets ordinaires, basé sur l'évaluation comparative de 30 modèles NLP allant des approches classiques (TF-IDF) aux Transformers modernes (RoBERTa, BERTweet).
 
 ---
 
@@ -11,10 +11,11 @@ Système de classification automatique de tweets permettant de distinguer les vr
 3. [Méthodologie](#méthodologie)
 4. [Résultats](#résultats)
 5. [Structure du projet](#structure-du-projet)
-6. [Installation](#installation)
-7. [Déploiement](#déploiement)
-8. [Stack technique](#stack-technique)
-9. [Auteur](#auteur)
+6. [Présentation Canva](#Canva)
+7. [Installation](#installation)
+8. [Déploiement](#déploiement)
+9. [Stack technique](#stack-technique)
+10. [Auteur](#auteur)
 
 ---
 
@@ -145,6 +146,9 @@ disaster-tweets-classification/
 ├── README.md
 
 └── .gitignore
+
+## Présentation Canva
+**le lien vers la présentation est disponible ici** : https://canva.link/qaa8bh5zps5lvmc
 
 ## Installation
 
