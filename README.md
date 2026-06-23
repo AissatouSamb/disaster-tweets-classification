@@ -181,7 +181,7 @@ Les notebooks sont conçus pour être exécutés sur Kaggle (NB1-NB5) et Google 
 
 Analyse comparative des 30 modèles, visualisations interactives et exploration des résultats.
 
-**Lien : **  https://disaster-tweets-classification.streamlit.app/ 
+**Lien :**  https://disaster-tweets-classification.streamlit.app/ 
 
 
 ### Interface de prédiction (Hugging Face Spaces)
