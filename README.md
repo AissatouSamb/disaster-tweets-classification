@@ -145,6 +145,22 @@ disaster-tweets-classification/
 
 ├── README.md
 
+├── .devcontainer   #fichier de configuration d'environnement
+
+├── .github        #Configuration de GitHub (workflows, templates)
+
+├── tests/
+
+│    ├── __init__.py             # Fichier vide (marque le dossier comme package Python)
+    
+│    ├── test_preprocessing.py          # 7 tests sur le nettoyage des tweets
+    
+│   ├── test_data.py                   # 8 tests sur les fichiers CSV
+    
+│   ├── test_metrics.py                # 5 tests sur les calculs de métriques
+    
+│   └── test_model_outputs.py          # 6 tests sur les résultats des modèles
+
 └── .gitignore
 
 ## Présentation Canva
@@ -173,7 +189,7 @@ streamlit run app.py
 
 ### Exécuter les notebooks
 
-Les notebooks sont conçus pour être exécutés sur Kaggle (NB1-NB5) et Google Colab (NB6-NB7) afin de bénéficier des ressources GPU gratuites nécessaires au fine-tuning des Transformers.
+Les notebooks sont conçus pour être exécutés sur Kaggle (EDA et NB1-NB5) et Google Colab (NB6-NB7) afin de bénéficier des ressources GPU gratuites nécessaires au fine-tuning des Transformers.
 
 ## Déploiement
 
